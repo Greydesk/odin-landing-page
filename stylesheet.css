@@ -2,9 +2,33 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    font-family: roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .header {
     background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+}
+.header_logo {
+    flex: 4;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header > a {
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: right;
+    align-items: center;
+}
+.header_link2 {
+    flex: 1;
+}
+.header_link3 {
+    flex: 1;
 }
 .hero {
     background-color: #1f2937;
