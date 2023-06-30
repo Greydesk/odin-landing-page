@@ -32,6 +32,41 @@ body {
 }
 .hero {
     background-color: #1f2937;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.hero_text {
+    flex: 1;
+    margin-left: 20px;
+}
+.hero_text > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.hero_text > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.hero_text > button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.hero_img {
+    background-color: #6d747d;
+    flex: 1;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.hero_img > p {
+    color: #ffffff;
 }
 .top {
     background-color: #ffffff;
