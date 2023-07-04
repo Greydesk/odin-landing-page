@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     color: #ffffff;
     display: flex;
-    padding: 5px 20px;
+    padding: 5px 25%;
     justify-content: space-between;
 }
 .header_logo {
@@ -34,13 +34,11 @@ body {
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
+    padding: 40px 25%;
 }
 .hero_text {
     flex: 1;
-    margin-left: 20px;
+    padding-right: 40px;
 }
 .hero_text > h1 {
     color: #f9faf8;
@@ -62,7 +60,6 @@ body {
     background-color: #6d747d;
     flex: 1;
     display: flex;
-    margin-right: 20px;
     align-items: center;
     justify-content: center;
 }
